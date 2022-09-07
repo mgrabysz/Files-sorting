@@ -2,6 +2,10 @@ package pl.marcin;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.*;
+
+import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
+import static java.nio.file.StandardWatchEventKinds.OVERFLOW;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -20,16 +24,50 @@ public class Main {
             test.mkdir();
         }
 
-        // test set
-//        File emptyJar = new File("HOME/emptyJarEven.jar");
-//        emptyJar.createNewFile();
-//        File emptyJar2 = new File("HOME/emptyJar2.jar");
-//        emptyJar2.createNewFile();
-//        File emptyXML = new File(("HOME/emptyXML.xml"));
-//        emptyXML.createNewFile();
-
         Segregator segregator = new Segregator();
-        segregator.segregate(home);
 
+        // code below for listening to changes in directory
+        // comes from official Oracle documentation
+        // https://docs.oracle.com/javase/tutorial/essential/io/notification.html
+
+        WatchService watcher = FileSystems.getDefault().newWatchService();
+        home.toPath().register(watcher, ENTRY_CREATE);
+
+        for (;;) {
+
+            // wait for key to be signaled
+            WatchKey key;
+            try {
+                key = watcher.take();
+            } catch (InterruptedException x) {
+                return;
+            }
+
+            for (WatchEvent<?> event: key.pollEvents()) {
+                WatchEvent.Kind<?> kind = event.kind();
+
+                if (kind == OVERFLOW) {
+                    continue;
+                }
+
+                WatchEvent<Path> ev = (WatchEvent<Path>)event;
+                Path filename = ev.context();
+
+                // Verify that the new
+                //  file is a text file.
+                try {
+                    Path child = home.toPath().resolve(filename);
+                    segregator.segregateFile(new File(child.toString()));
+                } catch (IOException x) {
+                    System.err.println(x);
+                    continue;
+                }
+            }
+
+            boolean valid = key.reset();
+            if (!valid) {
+                break;
+            }
+        }
     }
 }

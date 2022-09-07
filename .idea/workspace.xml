@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ab23757-91b0-4b74-8c4a-d5dc74478ad4" name="Changes" comment="Implement correct segregation">
+    <list default="true" id="5ab23757-91b0-4b74-8c4a-d5dc74478ad4" name="Changes" comment="Implement creation and actualisation of count.txt file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcin/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcin/Segregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcin/Segregator.java" afterDir="false" />
@@ -42,6 +42,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\margr\Projekty\IdeaProjects\Files\ExampleFiles" />
       <recent name="C:\Users\margr\Projekty\IdeaProjects\Files\HOME" />
     </key>
   </component>
@@ -82,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662545263234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implement creation and actualisation of count.txt file">
+      <created>1662546182317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662546182317</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +109,7 @@
     <MESSAGE value="Get the extension of files" />
     <MESSAGE value="Refactorize code" />
     <MESSAGE value="Implement correct segregation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement correct segregation" />
+    <MESSAGE value="Implement creation and actualisation of count.txt file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement creation and actualisation of count.txt file" />
   </component>
 </project>
