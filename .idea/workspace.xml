@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ab23757-91b0-4b74-8c4a-d5dc74478ad4" name="Changes" comment="Get the extension of files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcin/Segregator.java" afterDir="false" />
+    <list default="true" id="5ab23757-91b0-4b74-8c4a-d5dc74478ad4" name="Changes" comment="Refactorize code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcin/Segregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcin/Segregator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\margr\Projekty\IdeaProjects\Files\HOME" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662542732507</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactorize code">
+      <created>1662542969010</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662542969010</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create the file structure" />
     <MESSAGE value="Get the extension of files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get the extension of files" />
+    <MESSAGE value="Refactorize code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactorize code" />
   </component>
 </project>

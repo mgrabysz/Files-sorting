@@ -1,9 +1,10 @@
 package pl.marcin;
 
 import java.io.File;
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         // create the file structure
         File home = new File("HOME");
@@ -20,8 +21,8 @@ public class Main {
         }
 
         // test set
-//        File emptyJar = new File("HOME/emptyJar.jar");
-//        emptyJar.createNewFile();
+        File emptyJar = new File("HOME/emptyJarEven.jar");
+        emptyJar.createNewFile();
 //        File emptyJar2 = new File("HOME/emptyJar2.jar");
 //        emptyJar2.createNewFile();
 //        File emptyXML = new File(("HOME/emptyXML.xml"));
