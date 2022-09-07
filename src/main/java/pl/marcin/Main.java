@@ -21,8 +21,8 @@ public class Main {
         }
 
         // test set
-        File emptyJar = new File("HOME/emptyJarEven.jar");
-        emptyJar.createNewFile();
+//        File emptyJar = new File("HOME/emptyJarEven.jar");
+//        emptyJar.createNewFile();
 //        File emptyJar2 = new File("HOME/emptyJar2.jar");
 //        emptyJar2.createNewFile();
 //        File emptyXML = new File(("HOME/emptyXML.xml"));
