@@ -5,7 +5,7 @@ import java.io.File;
 public class Main {
     public static void main(String[] args) {
 
-        // create the files structure
+        // create the file structure
         File home = new File("HOME");
         if (! home.exists()) {
             home.mkdir();
@@ -19,32 +19,26 @@ public class Main {
             test.mkdir();
         }
 
-//        File f = new File(dirpath, dname);
-//
-//        // if directory exists,then
-//        if (f.exists()) {
-//            // get the contents into arr[]
-//            // now arr[i] represent either a File or
-//            // Directory
-//            String arr[] = f.list();
-//
-//            // find no. of entries in the directory
-//            int n = arr.length;
-//
-//            // displaying the entries
-//            for (int i = 0; i < n; i++) {
-//                System.out.println(arr[i]);
-//                // create File object with the entry and
-//                // test if it is a file or directory
-//                File f1 = new File(arr[i]);
-//                if (f1.isFile())
-//                    System.out.println(": is a file");
-//                if (f1.isDirectory())
-//                    System.out.println(": is a directory");
-//            }
-//            System.out.println(
-//                    "No of entries in this directory " + n);
+        // test set
+//        File emptyJar = new File("HOME/emptyJar.jar");
+//        emptyJar.createNewFile();
+//        File emptyJar2 = new File("HOME/emptyJar2.jar");
+//        emptyJar2.createNewFile();
+//        File emptyXML = new File(("HOME/emptyXML.xml"));
+//        emptyXML.createNewFile();
 
+        File[] files = home.listFiles();
+
+        for (File file : files) {
+            System.out.println(file.getName());
+
+            if (file.isFile()) {
+                String fileName = file.toString();
+                int index = fileName.lastIndexOf('.');
+                String extension = fileName.substring(index + 1);
+                System.out.println(extension);
+            }
+        }
 
     }
 }
