@@ -60,7 +60,6 @@ public class Main {
                     segregator.segregateFile(new File(child.toString()));
                 } catch (IOException x) {
                     System.err.println(x);
-                    continue;
                 }
             }
 

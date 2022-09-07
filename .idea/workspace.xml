@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ab23757-91b0-4b74-8c4a-d5dc74478ad4" name="Changes" comment="Implement creation and actualisation of count.txt file">
+    <list default="true" id="5ab23757-91b0-4b74-8c4a-d5dc74478ad4" name="Changes" comment="Implemented listening for changes">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcin/Segregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcin/Segregator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662546182317</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented listening for changes">
+      <created>1662548072911</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662548072911</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +117,7 @@
     <MESSAGE value="Refactorize code" />
     <MESSAGE value="Implement correct segregation" />
     <MESSAGE value="Implement creation and actualisation of count.txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement creation and actualisation of count.txt file" />
+    <MESSAGE value="Implemented listening for changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented listening for changes" />
   </component>
 </project>
