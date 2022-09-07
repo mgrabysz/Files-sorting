@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ab23757-91b0-4b74-8c4a-d5dc74478ad4" name="Changes" comment="Create the file structure">
+    <list default="true" id="5ab23757-91b0-4b74-8c4a-d5dc74478ad4" name="Changes" comment="Get the extension of files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcin/Segregator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcin/Main.java" afterDir="false" />
     </list>
@@ -12,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662541552481</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Get the extension of files">
+      <created>1662542732507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662542732507</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,6 +79,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create the file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create the file structure" />
+    <MESSAGE value="Get the extension of files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get the extension of files" />
   </component>
 </project>

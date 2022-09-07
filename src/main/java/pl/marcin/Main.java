@@ -27,18 +27,8 @@ public class Main {
 //        File emptyXML = new File(("HOME/emptyXML.xml"));
 //        emptyXML.createNewFile();
 
-        File[] files = home.listFiles();
-
-        for (File file : files) {
-            System.out.println(file.getName());
-
-            if (file.isFile()) {
-                String fileName = file.toString();
-                int index = fileName.lastIndexOf('.');
-                String extension = fileName.substring(index + 1);
-                System.out.println(extension);
-            }
-        }
+        Segregator segregator = new Segregator();
+        segregator.segregate(home);
 
     }
 }
