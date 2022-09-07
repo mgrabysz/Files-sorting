@@ -6,12 +6,7 @@ Zadanie rekrutacyjne w Pretius Software Sp.z o.o.
 Jeżeli posiadamy odpowiednie zintegrowane środowisko obsługujące projekty Maven (np. Intellij) możemy otworzyć projekt za jego pomocą. Wówczas do uruchomienia aplikacji wystarczy kliknięcie przycisku "Run".
 
 ### Uruchamianie poza środowiskiem
-Do uruchomienia aplikacji wystarczy zainstalowane JDK. Po rozpakowaniu projektu uruchamiamy terminal i wchodzimy w główny folder o nazwie Files. W folderze znajduje się uprzednio utworzony plik .jar, więc aplikację możemy uruchomić z wiersza poleceń następującą komendą:
-```shell
-java -cp .\target\Files-1.0-SNAPSHOT.jar .\src\main\java\pl\marcin\Main.java
-```
-
-Jeżeli dysponujemy także narzędziem Maven, projekt możemy uprzednio zbudować, rozszerzając zestaw komend w następujący sposób:
+Do uruchomienia aplikacji należy mieć zainstalowane narzędzia JDK oraz Maven. Po rozpakowaniu projektu uruchamiamy terminal i wchodzimy w główny folder o nazwie Files. Aplikację kompilujemy i uruchamiamy z wiersza poleceń następującym zestawem komend:
 ```shell
 mvn clean package
 java -cp .\target\Files-1.0-SNAPSHOT.jar .\src\main\java\pl\marcin\Main.java
