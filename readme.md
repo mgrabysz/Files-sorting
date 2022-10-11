@@ -1,5 +1,5 @@
 ## Files
-Zadanie rekrutacyjne w Pretius Software Sp.z o.o.
+Zadanie rekrutacyjne polegające na napisaniu programu segregującego pliki .jar oraz .xml.
 
 ## Uruchamianie aplikacji
 ### Uruchamianie z użyciem skonfigurowanego IDE
