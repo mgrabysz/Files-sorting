@@ -6,7 +6,7 @@ Zadanie rekrutacyjne polegające na napisaniu programu segregującego pliki .jar
 Jeżeli posiadamy odpowiednie zintegrowane środowisko obsługujące projekty Maven (np. Intellij) możemy otworzyć projekt za jego pomocą. Wówczas do uruchomienia aplikacji wystarczy kliknięcie przycisku "Run".
 
 ### Uruchamianie poza środowiskiem
-Do uruchomienia aplikacji należy mieć zainstalowane narzędzia JDK oraz Maven. Po rozpakowaniu projektu uruchamiamy terminal i wchodzimy w główny folder o nazwie Files. Aplikację kompilujemy i uruchamiamy z wiersza poleceń następującym zestawem komend:
+Do uruchomienia aplikacji należy mieć zainstalowane narzędzia JDK oraz Maven. Po rozpakowaniu projektu uruchamiamy terminal i wchodzimy w główny folder o nazwie Files-sorting. Aplikację kompilujemy i uruchamiamy z wiersza poleceń następującym zestawem komend:
 ```shell
 mvn clean package
 java -cp .\target\Files-1.0-SNAPSHOT.jar .\src\main\java\pl\marcin\Main.java
